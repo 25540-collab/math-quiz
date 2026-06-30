@@ -31,19 +31,19 @@ def open_login_window():
 
 # Username label 
     username_label = tk.Label(login,text="Username", font=("Sniglet", 30, "bold"), fg="#574e99",  bg="white" )
-    username_label.pack(pady=5)
+    username_label.pack(pady=1)
 
 # Username entry 
     username_entry = tk.Entry(login,font=("coming soon", 14, "bold"),bg="#e6eefd",fg="#3184e1",relief="flat",width=25 )
-    username_entry.pack(pady=0)
+    username_entry.pack()
 
 # Password label 
     password_label = tk.Label(login,text="Password",font=("Sniglet", 30, "bold"),fg="#574e99", bg="white")
-    password_label.pack(pady=5)
+    password_label.pack()
 
 # Password entry
     password_entry = tk.Entry(login, font=("coming soon", 14, "bold"),bg="#e6eefd",fg="#3184e1",relief="flat",width=25,show="•")
-    password_entry.pack(pady=2)
+    password_entry.pack()
 
 # Login Button
     def login_action():
